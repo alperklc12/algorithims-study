@@ -1,0 +1,11 @@
+lst = [1, 2, 3, 4, 5]
+n = int(input("Enter a number."))
+
+
+def func1(n, lst_pr):
+    for i in range(n):
+        print("A({})".format(lst_pr[i]))
+
+
+if n <= len(lst):
+    func1(n, lst)
