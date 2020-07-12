@@ -1,0 +1,12 @@
+# lst = []
+n = int(input("Enter a number."))
+
+
+def func1(n):
+    # for i in range(n):
+    #     lst_pr.append(0)
+    return [0 for e in range(n)]
+
+
+lst = func1(n)
+print(lst)
