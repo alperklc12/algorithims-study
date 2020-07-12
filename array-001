@@ -1,0 +1,17 @@
+n = int(input("Enter a number"))
+lst = []
+
+
+def func1(n, lst_pr):
+    for i in range(n):
+        print("A %d= " % (i + 1), end="")
+        lst_pr.append(input())
+
+
+def func2(n, lst_pr):
+    for i in range(n):
+        element = input("Enter list staff.")
+        lst_pr.append(element)
+
+
+print(lst)
