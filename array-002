@@ -7,5 +7,10 @@ def func1(n, lst_pr):
         print("A({})".format(lst_pr[i]))
 
 
+def func2(n, lst_pr):
+    for i in range(n):
+        print("A(%d) = %d" % (i + 1, lst_pr[i]))
+
+
 if n <= len(lst):
-    func1(n, lst)
+    func2(n, lst)
